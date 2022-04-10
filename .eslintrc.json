@@ -1,0 +1,9 @@
+{
+    "extends": ["airbnb-typescript-prettier", "prettier", "plugin:node/recommended"],
+    "plugins": ["prettier"],
+    "rules":{
+        "prettier/prettier": "off",
+        "node/no-unsupported-features/es-syntax": "off",
+        "@typescript-eslint/no-var-requires": "off"
+    }
+}
